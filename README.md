@@ -9,10 +9,11 @@ I componenti utilizzati per sono:
 - Sensore Temperatura e Umidità DHT11
 - Passive Buzzer
 - 5 button switch
-![[circuit.png]]
-%% 
-i sensori utilizzati nel diagramma sono solo indicativi in quanto la piattaforma [
-](wokwi.com) non dispone dei sensori utilizzati per il progetto. Fanno riferimento i collegamenti sull'ESP 32 e come sono stati collegati fra di loro i componenti. Nel progetto non è stata utilizzata una bread board, ma schede millefori con i componenti saldati su di esse %%
+
+<img width="1180" height="598" alt="circuit" src="https://github.com/user-attachments/assets/75a8fdd2-ce33-40be-b2a6-09d926171c88" />
+
+` i sensori utilizzati nel diagramma sono solo indicativi in quanto la piattaforma [wokwi
+](wokwi.com) non dispone dei sensori utilizzati per il progetto. Fanno riferimento i collegamenti sull'ESP 32 e come sono stati collegati fra di loro i componenti. Nel progetto non è stata utilizzata una bread board, ma schede millefori con i componenti saldati su di esse`
 Il dispositivo mostra diverse schermate:
  - 1 MENÙ
 	 mostra l'orario, in alto a sinistra la temperatura e in alto a destra con la scritta ON o OFF se la sveglia è attiva o meno
@@ -27,7 +28,8 @@ Il dispositivo mostra diverse schermate:
 Quando la sveglia suona e o viene attivata/disattivata a schermo viene mostrato un messaggio per informare l'utente dell'azione.
 
 
-![[button_view.jpeg]]
+![button_view](https://github.com/user-attachments/assets/64f7439a-8bb9-48f0-849d-54e623e2cb6b)
+
 La smart pill box presenta nella parte superiore 5 pulsanti per gestire le varie schermate, l'orario e la sveglia. 
 Nella parte frontale è presente il display che mostra le informazioni e al di sotto un cassetto dove riporre i farmaci da assumere.
 I primi due pulsanti (quelli bianchi) permettono di scorrere fra le varie schermate presenti.
